@@ -17,7 +17,4 @@ model Mahasiswa {
   id        Int      @id @default(autoincrement())
   name      String
   email     String
-  nohp      String
-  jenkel    String
-  createdAt DateTime @default(now())
 }
